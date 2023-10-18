@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+.conteudo{
+    width: 100vw;
+    height: 70px;
+    background-color: gray;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    padding-left: 30rem;
+    
+}
+
+.logo {
+    width: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.logo h3{
+    color: #ccc;
+    font-size: 1.8rem;
+}
+
+.conteudo .lista-menu {
+    width: 610px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudo .lista-menu li a{
+    color: white;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.section-header{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url(./img/fundopizza.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-header .conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     justify-content: center;
+}
+
+.section-header h1{
+    color: #ccc;
+    font-size: 50px;
+}
+
+.section-header h2{
+    color: #ccc;
+}
+
+.cardapio{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(12, 12, 12, 0.8), rgba(15, 15, 15, 0.8)), url(/img/cardapio.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.cardapio h2{
+    font-size: 50px;
+    color: #ccc;
+}
+
+.menu-cardapio .info{
+    background-color: rgb(221, 221, 221);
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    border-radius: 10px;
+    
+}
+
+.menu-cardapio .info h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.menu-cardapio .info h4 {
+    font-size: 1.7rem;
+    text-transform: uppercase;
+}
+
+.menu-cardapio .info h4 span{
+    font-size: 1.6rem;
+    color:#585858;
+    margin-left: 1.5rem;
+    
+}
+
+.menu-cardapio img {
+    width: 100%;
+    height: 200px;
+}
+
+.menu-cardapio .info .pedido{
+    width: 200px;
+    height: 35px;
+    margin-top: 0.5rem;
+    background-color: #ffc506;
+    border-radius: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.footer-tabela {
+    width: 80%;
+    margin: auto;
+}
+
+.footer-tabela caption {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-tabela th, .footer-tabela td {
+    padding: 10px;
+    border: 1px solid #fff;
+}
+
+.footer-tabela th, .footer-tabela td {
+    background-color: #555;
+}
